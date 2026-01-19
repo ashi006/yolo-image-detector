@@ -1,0 +1,19 @@
+[project]
+name = "yolo-image-detector"
+version = "1.0"
+description = "A sample code to detect images using Yolo model."
+authors = [
+    {name = "Asma Jamil"}
+]
+requires-python = "3.13.11"
+dependencies = [
+    "ultralytics (>=8.4.6,<9.0.0)",
+    "pillow (>=12.1.0,<13.0.0)",
+    "fastapi (>=0.128.0,<0.129.0)",
+    "uvicorn (>=0.40.0,<0.41.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
